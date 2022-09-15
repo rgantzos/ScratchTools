@@ -1,4 +1,4 @@
-let currentlySelected = null
+var currentlySelected = null
 function addOpacityRange() {
 if (document.querySelector('.scratchtoolsOpacity') === null) {
 var opacity1 = document.createElement('div')
