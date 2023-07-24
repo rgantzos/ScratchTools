@@ -1,0 +1,135 @@
+html {
+    height: 100vh;
+  }
+  
+  body {
+    text-align: center;
+    padding-top: calc(50vh - 8rem);
+    overflow-x: hidden;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 4rem;
+    margin-bottom: 0px;
+  }
+
+  .title-box {
+    margin-bottom: 400vh;
+    color: white;
+  }
+  
+  canvas {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: calc(100vw + 3rem);
+    z-index: -99999999;
+  }
+
+  .settings-page {
+    width: 50rem;
+    background-color: rgba(255, 255, 255, 0.535);
+    padding: 2rem;
+    border-radius: .5rem;
+    margin-left: calc(50% - 27rem);
+    margin-bottom: 50vh;
+  }
+
+  .settings-page h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .split {
+    width: 20rem;
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .split .image-header {
+    height: 15rem;
+    background-position: center center;
+    background-size: cover;
+width: calc(100% + 2rem);
+position: relative;
+top: -1rem;
+left: -1rem;
+border-top-left-radius: .5rem;
+border-top-right-radius: .5rem;
+margin-bottom: -1rem;
+  }
+
+  .split h2 {
+    margin-bottom: .5rem;
+  }
+
+  .split p {
+    margin: 0px;
+    opacity: .5;
+  }
+
+  .break {
+    padding: 2rem;
+    background-color: white;
+    position: relative;
+    left: -2rem;
+    width: 100%;
+  }
+
+  .icon {
+    height: 5rem;
+    position: relative;
+    bottom: -1.5rem;
+  }
+
+  .invert {
+    filter: invert(1);
+  }
+
+  .card {
+    width: 25rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    margin: 1rem;
+    display: inline-block;
+    height: 25rem;
+    background-color: rgba(228, 228, 228, 0.235);
+    text-align: left;
+    overflow-y: hidden;
+  }
+
+  .bottom-right {
+    text-align: right;
+    position: relative;
+  }
+
+  .bottom-right > * {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    max-width: 25rem;
+  }
+
+  .card h1 {
+    margin: 0px;
+  }
