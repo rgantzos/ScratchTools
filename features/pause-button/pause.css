@@ -1,0 +1,11 @@
+.ste-pause-btn {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.375rem;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+.ste-pause-btn:hover {
+    background-color: #fbb03b20;
+}

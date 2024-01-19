@@ -1,6 +1,11 @@
 [
   {
     "version": 2,
+    "id": "pause-button",
+    "versionAdded": "v3.7.0"
+  },
+  {
+    "version": 2,
     "id": "comment-tags",
     "versionAdded": "v3.7.0"
   },

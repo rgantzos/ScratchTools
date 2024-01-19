@@ -1,0 +1,16 @@
+{
+  "title": "Pause Button",
+  "description": "Easily pause and play a project.",
+  "credits": [
+    { "username": "rgantzos", "url": "https://scratch.mit.edu/users/rgantzos/" }
+  ],
+  "type": ["Website", "Editor"],
+  "tags": ["New", "Featured"],
+  "dynamic": true,
+  "styles": [{ "file": "pause.css", "runOn": "/projects/*" }],
+  "scripts": [{ "file": "script.js", "runOn": "/projects/*" }],
+  "resources": [
+    { "name": "pause", "path": "/pause.svg" },
+    { "name": "fav-yellow", "path": "/play.svg" }
+  ]
+}
